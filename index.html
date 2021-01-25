@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Assignment 1">
+<meta name="keywords" content="Ultra, Ultra Singapore, Assignment, Basic HTML, Basic CSS">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+
+  body{
+    background-color: black;
+  }
+
+  h1 {
+     font-size: 90px;
+     color: #blue;
+     text-align: center;
+     font-family: trattatello, fantasy;
+     -webkit-animation: glow 1s ease-in-out infinite alternate;
+     -moz-animation: glow 1s ease-in-out infinite alternate;
+     animation: glow 1s ease-in-out infinite alternate;
+     margin-bottom: -90px;
+     margin-top: -200px;
+    }
+
+    @-webkit-keyframes glow {
+     from {
+       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #002ae6, 0 0 40px #002ae6, 0 0 50px #002ae6, 0 0 60px #002ae6, 0 0 70px #e60073;
+       }
+
+       to {
+         text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+       }
+    }
+
+    h2 {
+      font-size: 70px;
+      font-family: brush script mt;
+      color: #fff;
+      text-align: center;
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #adff2f, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+      margin-left: 380px;
+    }
+
+    h3 {
+      font-size: 100px;
+      font-family: brush script mt;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 30px;
+      margin-top: 50px;
+      text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 15px #de3163, 0 0 20px #de3163, 0 0 25px #de3163, 0 0 30px #de3163, 0 0 35px #0073e6;
+    }
+
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+  margin-top: -23px;
+  margin-bottom: -20px;
+  font-family: monospace;
+  font-size: 20px;
+  }
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #de3163;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: century;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+  </style>
+
+</head>
+
+<body>
+
+  <img src="sunsetbanner.jpg" alt="Sunset Banner" width="100%" height="220">
+  <h1>ULTRA Singapore</h1>
+  <h2>2021</h2>
+
+<!-- Navigation bar -->
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#lineup">Lineup</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#location">Location</a></li>
+  </ul>
+
+<!-- First Heading -->
+  <h3 id=home><u>Home</u></h3>
+  <img src="ultrahome.jpg" alt="ULTRA Singapore">
+  <p>Ultra Singapore is an outdoor electronic music festival that debut in 2015 in Singapore
+    as part of <i>Ultra Music Festival's</i>
+  <br>
+  world wide expansion.
+  <br>
+  <br>
+  <br>
+</p>
+
+  <img src="steveaoki.jpg" alt="Steve Aoki">
+  <p href="home">The first edition of Ultra Singapore took place at Ultra Park in 2016.
+    The event was held near Marina Bay Sands Hotel. This music festival hosted three stages:
+    <br>
+    <br>
+    -Main Stage
+    <br>
+    -Resistance Stage
+    <br>
+    -Live Stage
+      <hr>
+  </p>
+
+<!-- Second Heading -->
+  <h3 id=lineup><u>Line Up</u></h3>
+  <img src="lineup.jpg" alt="ULTRA Line Up" width="50%">
+  <p>-Main Stage houses the main headliner DJs
+    <br>
+    -Resistance Stage offers techno/house genre DJs
+    <br>
+    -Live Stage mainly involves band music and live instruments
+    <br>
+    <br>
+    <i>For ticketing & miscellaneous queries, click <a href="https://ultrasingapore.com/"target="_blank">here</a> for more information
+    <br>
+  </p>
+
+<!-- Embed official aftermovie -->
+    <h4 style="text-align: center;"><iframe width="800" height="800" src="https://www.youtube.com/embed/Ox1zn3WS4mg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe></h4>
+    <p>Do check out the official aftermovie of past festivals of Ultra Singapore!</p>
+    <br>
+    <br>
+    <hr>
+
+<!-- Third Heading -->
+  <h3 id=features><u>Features</u></h3>
+  <img src="mercedesbooth.jpg" alt="Mercedes Booth" width="60%">
+  <p>The <i>Mercedes Booth</i> is a space for ravers to take a breather from the claustrophobia!
+    <br>
+    <br>
+  </p>
+
+  <img src="dbsswing.jpg" alt="DBS Swing 1" width="70%">
+  <p><b>EXCLUSIVE!!</b> The <i>Space Objekt</i> booth sponsored by DBS offers a swing through the water shower!
+    <br>
+    How refreshing!!
+    <br>
+    <br>
+  </p>
+
+  <img src="dbskaleidoscopic.jpg" alt="DBS Kaleidoscope 1" width="40%">
+  <p><i>Space Objekt</i> booth also includes a <b>KALEIDOSCOPIC themed</b> installation. What a treat!
+    <br>
+    #GETYOURCAMERASREADY
+    <br>
+    #FORTHEGRAM
+  </p>
+
+<!-- Side by side image -->
+    <div class="row">
+    <div class="column">
+      <img src="dbskaleidoscopic2.jpg" alt="DBS Kaleidoscope 2" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="dbsswing2.jpg" alt="DBS Swing 2" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="dbskaleidoscopic3.jpg" alt="DBS Kaleidoscope 3" style="width:100%">
+    </div>
+  </div>
+  <br>
+  <hr>
+
+<!-- Fourth Heading -->
+  <h3 id=location><u>Location</u></h3>
+
+<!-- Embed from googlemaps -->
+  <h4 style="text-align: center;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.41027893771!2d103.85861297583179!3d1.2813969997652104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMTYnNTMuMCJOIDEwM8KwNTEnMzUuMCJF!5e0!3m2!1sen!2ssg!4v1611524810252!5m2!1sen!2ssg"
+    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></h4>
+  <p><i>*Event may be shifted to Marina Bay Sands Convention Hall
+    in response to weather conditions*</i></p>
+
+</body>
+</html>
